@@ -1,0 +1,14 @@
+{
+  "name": "collected.systems",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.1"
+  },
+  "scripts": {
+    "dev": "vuepress dev ./content",
+    "build": "vuepress build ./content",
+    "deploy:now": "npm run build && cp ./now.json ./content/.vuepress/dist && cd ./content/.vuepress/dist && now && now alias"
+  }
+}
