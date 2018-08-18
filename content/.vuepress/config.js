@@ -12,10 +12,11 @@ module.exports = {
         title: 'Guides to Making',
         collapsable: false,
         children: [
-          ['/guides/static-sites/', 'Static Sites'],
+          ['/guides/deploying-web-front-end/', 'Deploying Web Front End'],
           ['/guides/single-page-apps/', 'Single Page Apps'],
           ['/guides/components/', 'Components'],
           ['/guides/documentation/', 'Documentation'],
+          ['/guides/static-sites/', 'Static Sites'],
         ]
       },
       {
