@@ -8,7 +8,7 @@ Users may post writing, images, code snippets, links.
 
 A tweet requires some sort of content: text and/or images and/or links and/or video. Tweets may reference other tweets, either by replying to them, quoting them, or linking to them.
 
-## Relay Base Interfaces
+## Relay’s Base Interfaces
 
 ```graphql
 interface Node {

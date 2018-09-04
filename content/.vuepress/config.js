@@ -4,10 +4,11 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Royal Icing GitHub', link: 'https://github.com/RoyalIcing' }
+      { text: '@RoyalIcing GitHub', link: 'https://github.com/RoyalIcing' }
     ],
     sidebar: [
       ['/', 'Welcome'],
+      ['/principles/', 'Principles'],
       {
         title: 'Guides to Making',
         collapsable: false,
@@ -33,8 +34,7 @@ module.exports = {
           ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
-      },
-      '/principles/'
+      }
     ],
     // displayAllHeaders: true
   }
