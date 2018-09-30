@@ -3,7 +3,6 @@ module.exports = {
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/' },
       { text: '@RoyalIcing GitHub', link: 'https://github.com/RoyalIcing' }
     ],
     sidebar: [
@@ -13,11 +12,11 @@ module.exports = {
         title: 'Guides to Making',
         collapsable: false,
         children: [
-          ['/guides/deploying-web-front-end/', 'Deploying Web Front End'],
+          ['/guides/deploying-front-end/', 'Deploying Front End'],
           ['/guides/single-page-apps/', 'Single Page Apps'],
-          ['/guides/components/', 'Components'],
-          ['/guides/documentation/', 'Documentation'],
-          ['/guides/static-sites/', 'Static Sites'],
+          // ['/guides/components/', 'Components'],
+          // ['/guides/documentation/', 'Documentation'],
+          // ['/guides/static-sites/', 'Static Sites'],
         ]
       },
       {
