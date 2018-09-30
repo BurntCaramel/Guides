@@ -20,18 +20,21 @@ a {
 .nav-links a:hover, .nav-links a.router-link-active {
   color: white;
 }
+.nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
+  border-bottom-color: #00d4ff !important;
+}
 
 .sidebar {
   background-color: #2b2b2b;
   color: white;
 }
 a.sidebar-link {
-  color: white;
+  color: white !important;
 }
 a.sidebar-link:hover {
-  color: #00d4ff;
+  color: #00d4ff !important;
 }
 a.sidebar-link.active {
-  color: #00d4ff;
-  border-left-color: #00d4ff;
+  color: #00d4ff !important;
+  border-left-color: #00d4ff !important;
 }
