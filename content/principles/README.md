@@ -7,7 +7,7 @@ The recommendation practices and tools from Collected should follow the followin
 3. Collected works for a reasonably diverse set of use cases, and works especially well for some.
 4. Collected is fast to use, everywhere around the world.
 5. Collected is robust and secure.
-6. Getting Collected running should be a quick process.
+6. Getting Collected running is a quick process.
 7. Collected lets people own their own data.
 8. Collected can be improved and extended, with progressively disclosed complexity.
 9. Collected is open source.

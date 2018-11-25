@@ -3,7 +3,7 @@ module.exports = {
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
-      { text: '@RoyalIcing GitHub', link: 'https://github.com/RoyalIcing' }
+      { text: 'Our GitHub', link: 'https://github.com/RoyalIcing' }
     ],
     sidebar: [
       ['/', 'Welcome'],

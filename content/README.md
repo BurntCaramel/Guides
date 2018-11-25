@@ -1,3 +1,7 @@
-# Welcome to Collected Systems
+# Learn how to build valuable tools for your team
 
-We help you make systems for your team, by providing guides on key technologies, recommendations on processes, and by creating open source tools.
+Why? In the age of design systems, cheap cloud services, and distributed teams, we believe organizations and the teams within can create the tools that suit their precise needs.
+
+- We provide guides on key technologies
+- We have recommendations on processes
+- And we create open source building blocks
