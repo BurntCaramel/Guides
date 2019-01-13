@@ -71,3 +71,8 @@ content/.vuepress/dist
 
 # Serverless directories
 .serverless
+
+.envrc
+
+.terraform
+*.tfstate
