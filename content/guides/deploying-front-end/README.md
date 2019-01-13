@@ -1,5 +1,22 @@
 # Guide to Deploying Web Front Ends
 
+## Cloudflare Workers
+
+- Costs $5 per month, plus base cost of Cloudflare service
+
+### Advantages
+
+- Can run dynamic code, not just static
+- Deploys to 120+ centers around the world
+- Can proxy requests to anywhere
+- Use JavaScript, TypeScript, and Webassembly
+
+### Disadvantages
+
+- Need origin server behind
+- Doesn’t support Node.js APIs
+- Dedicated HTTPS (not shared certificate) costs additional fee
+
 ## Netlify
 
 ### Advantages
@@ -18,7 +35,8 @@
 
 ### Disadvantages
 
-- Only server-side language is JavaScript
+- Only Lambda language is JavaScript
+- Only Lambda region is AWS’s us-east
 
 ## Zeit Now
 
@@ -26,13 +44,14 @@
 
 - Integrates with [Cloudflare’s worldwide CDN](https://zeit.co/docs/features/cdn), for an extra $5
 - Handles [HTTPS automatically using LetsEncrypt](https://zeit.co/docs/features/certs)
-- Support Node.js and Docker servers too
+- Supports many application environments
 - [Proxy subpaths to an API](https://zeit.co/docs/features/path-aliases) to have a single domain and avoid CORS issues
 - Has a [full featured API](https://zeit.co/api)
 
 ### Disadvantages
 
 - You must build the site assets on your computer before deploying, or [alternatively using a Dockerfile](https://zeit.co/docs/features/static-builds)
+- Docker support has been deprecated
 
 ### Handy links
 
