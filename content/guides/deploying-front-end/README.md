@@ -1,23 +1,5 @@
 # Guide to Deploying Web Front Ends
 
-## Zeit Now
-
-### Advantages
-
-- Integrates with [Cloudflare’s worldwide CDN](https://zeit.co/docs/features/cdn), for an extra $5
-- Handles [HTTPS automatically using LetsEncrypt](https://zeit.co/docs/features/certs)
-- Support Node.js and Docker servers too
-- [Proxy subpaths to an API](https://zeit.co/docs/features/path-aliases) to have a single domain and avoid CORS issues
-- Has a [full featured API](https://zeit.co/api)
-
-### Disadvantages
-
-- You must build the site assets on your computer before deploying, or [alternatively using a Dockerfile](https://zeit.co/docs/features/static-builds)
-
-### Handy links
-
-- Config file: https://zeit.co/docs/features/configuration
-
 ## Netlify
 
 ### Advantages
@@ -37,3 +19,21 @@
 ### Disadvantages
 
 - Only server-side language is JavaScript
+
+## Zeit Now
+
+### Advantages
+
+- Integrates with [Cloudflare’s worldwide CDN](https://zeit.co/docs/features/cdn), for an extra $5
+- Handles [HTTPS automatically using LetsEncrypt](https://zeit.co/docs/features/certs)
+- Support Node.js and Docker servers too
+- [Proxy subpaths to an API](https://zeit.co/docs/features/path-aliases) to have a single domain and avoid CORS issues
+- Has a [full featured API](https://zeit.co/api)
+
+### Disadvantages
+
+- You must build the site assets on your computer before deploying, or [alternatively using a Dockerfile](https://zeit.co/docs/features/static-builds)
+
+### Handy links
+
+- Config file: https://zeit.co/docs/features/configuration
