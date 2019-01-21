@@ -70,8 +70,12 @@ export default {
     return {
       isDev: false,
       status: "",
-      textContent: "hello",
-      sha256: "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824" // sha256 of "hello"
+      textContent: `# This is an example of Syrup
+
+Make changes, then press **Add** below to save this content.
+
+Then click on **Preview HTML** above to see a preview inside a simple server-rendered HTML page.`,
+      sha256: "3a958430dc728e0753107f0e1a3678e65b5a2cd4ff23e3ce6152a717ce1cda48"
     };
   },
   computed: {
