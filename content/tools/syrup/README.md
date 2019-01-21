@@ -1,6 +1,13 @@
 # Syrup
 
-<Badge text="alpha" type="warn" />
+<div>
+  <Badge text="alpha" type="warn" />
+  <a href="https://github.com/RoyalIcing/syrup">Code on GitHub</a>
+</div>
+
+---
+
+Store, present, and process content at the edge closest to your users with Cloudflare Workers.
 
 ## Add Markdown
 
