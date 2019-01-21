@@ -9,19 +9,19 @@
 
   <fieldset>
     <label>
+      Markdown:
+      <textarea v-model="textContent" rows="25"></textarea>
+    </label>
+    <button type="submit" name="add" @click.prevent="addToStore">Add</button>
+  </fieldset>
+
+  <fieldset>
+    <label>
       SHA256:
       <input v-model="sha256">
     </label>
     <button type="submit" name="load" @click.prevent="loadFromStore" class="mr-3">Load</button>
     <a :href="previewURL" target="_blank">Preview HTML</a>
-  </fieldset>
-  
-  <fieldset>
-    <label>
-      Markdown:
-      <textarea v-model="textContent" rows="30"></textarea>
-    </label>
-    <button type="submit" name="add" @click.prevent="addToStore">Add</button>
   </fieldset>
 </form>
 
@@ -40,12 +40,14 @@
   label {
     display: block;
     margin-bottom: 0.7rem;
+    font-weight: bold;
   }
 
   input, textarea {
     width: 100%;
     display: block;
     padding: 0.5rem;
+    margin-top: 0.25rem;
     font-size: 1rem;
   }
   input {
@@ -74,8 +76,8 @@ export default {
 
 Make changes, then press **Add** below to save this content.
 
-Then click on **Preview HTML** above to see a preview inside a simple server-rendered HTML page.`,
-      sha256: "3a958430dc728e0753107f0e1a3678e65b5a2cd4ff23e3ce6152a717ce1cda48"
+Then click on **Preview HTML** below to see a preview inside a simple server-rendered HTML page.`,
+      sha256: "465e79d70ce57dac6fb7fe93ce76a889a92f0967dc44dd03f4030e899f9ef613"
     };
   },
   computed: {
