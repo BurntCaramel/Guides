@@ -30,6 +30,7 @@ module.exports = {
         title: 'Tools',
         collapsable: false,
         children: [
+          ['/tools/syrup/', 'Syrup'],
           ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
