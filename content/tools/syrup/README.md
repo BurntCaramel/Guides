@@ -46,6 +46,7 @@
     width: 100%;
     display: block;
     padding: 0.5rem;
+    font-size: 1rem;
   }
   input {
     padding: 0.25rem 0.5rem;
