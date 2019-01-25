@@ -1,22 +1,21 @@
 # Guide to Making Single Page Apps
 
-## Making them fast
-
-### Reducing asset sizes
-
-#### BundlePhobia
-
-Check sizes of current or future dependencies with [BundlePhobia](https://bundlephobia.com/).
-
-For example, let’s look at **lodash**: https://bundlephobia.com/result?p=lodash@4.17.11
-
-We can see the minified bundle size, which is what the user’s browser will execute. The minified + gzipped size is the amount that will be downloaded. It is ideal to keep **both** of these sizes down: while speeding up the download will make for a faster user experience, the unzipped size still affects speed as it must be executed before the user sees anything. On a low speed mobile phone, this can be a very noticable effect.
-
-The download times are a good gauge for how long your users will be waiting (For just the download). You can see that 24.2KB doesn’t sound like much, but it will take roughly half a second to download on a slowish 3G connection.
-
 ## Toolkits
 
+### [create-react-app](https://github.com/developit/preact-cli)
+
+![npm version](https://badgen.net/npm/v/create-react-app?color=orange)
+![license](https://badgen.net/github/license/facebook/create-react-app)
+![monthly downloads](https://badgen.net/npm/dm/create-react-app?color=yellow)
+![github stars](https://badgen.net/github/stars/facebook/create-react-app?color=yellow)
+
+
 ### [preact-cli](https://github.com/developit/preact-cli)
+
+![npm version](https://badgen.net/npm/v/preact-cli?color=orange)
+![license](https://badgen.net/github/license/developit/preact-cli)
+![monthly downloads](https://badgen.net/npm/dm/preact-cli?color=yellow)
+![github stars](https://badgen.net/github/stars/developit/preact-cli?color=yellow)
 
 A richly featured yet lightweight foundation for single page apps. Its bundle size is 4.5KB, which includes a router.
 
@@ -26,11 +25,12 @@ Because it starts so lightweight, other frameworks such as React, Vue, or Elm ca
 
 ### [vue-cli](https://github.com/vuejs/vue-cli)
 
+![npm version](https://badgen.net/npm/v/vue-cli?color=orange)
+![license](https://badgen.net/github/license/vuejs/vue-cli)
+![monthly downloads](https://badgen.net/npm/dm/vue-cli?color=yellow)
+![github stars](https://badgen.net/github/stars/vuejs/vue-cli?color=yellow)
+
 Vue CLI has a nice range of plugins such as TypeScript and PostCSS. You can customize the underlying Webpack config.
-
-### Razzle
-
-_To come_
 
 ### Gatsby
 
@@ -44,11 +44,17 @@ _To come_
 
 _To come_
 
-## React
+## React libraries
 
 ### [reach-router](https://reach.tech/router)
 
-A mature take on routing for React. Its creator helped make four releases of React Router, and Reach Router succeeds it by improving on accessibility, ease of use, and bundled size.
+![minzipped size](https://badgen.net/bundlephobia/minzip/@reach/router?color=green)
+![npm version](https://badgen.net/npm/v/@reach/router?color=orange)
+![license](https://badgen.net/github/license/reach/router)
+![monthly downloads](https://badgen.net/npm/dm/@reach/router?color=yellow)
+![github stars](https://badgen.net/github/stars/reach/router?color=yellow)
+
+A mature take on routing for React. Its creator helped make React Router, and Reach Router succeeds it by improving on accessibility, ease of use, and bundled size.
 
 ## Improving the experience
 
@@ -57,6 +63,9 @@ A mature take on routing for React. Its creator helped make four releases of Rea
 Audit performance and accessibility issues with Lighthouse
 
 ### [httpstat](https://github.com/reorx/httpstat) (command line)
+
+![license](https://badgen.net/github/license/reorx/httpstat)
+![github stars](https://badgen.net/github/stars/reorx/httpstat?color=yellow)
 
 See durations of DNS lookup, TCP connection, TLS handshake, server processing, and transfer times.
 
