@@ -2,9 +2,13 @@
 
 ## Reduce asset sizes
 
+### Why asset sizes matter
+
 ### [BundlePhobia](https://bundlephobia.com/)
 
 Check sizes of current or future dependencies with [BundlePhobia](https://bundlephobia.com/).
+
+#### Example
 
 For example, let’s look at **lodash**: https://bundlephobia.com/result?p=lodash@4.17.11
 
