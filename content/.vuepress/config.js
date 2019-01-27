@@ -16,6 +16,12 @@ module.exports = {
           ['/guides/single-page-apps/', 'Single Page Apps'],
           ['/guides/npm-packages/', 'NPM Packages'],
           ['/guides/deploying-front-end/', 'Deploying Front End'],
+          ['/guides/documentation/', {
+            title: 'Documentation',
+            children: [
+              ['/guides/documentation/writing', 'Writing Documentation']
+            ]
+          }],
           // ['/guides/components/', 'Components'],
           // ['/guides/documentation/', 'Documentation'],
           // ['/guides/static-sites/', 'Static Sites'],
