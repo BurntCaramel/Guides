@@ -38,7 +38,7 @@ module.exports = {
         title: 'Tools',
         collapsable: false,
         children: [
-          ['/tools/syrup/', 'Collected Edge'],
+          ['/tools/collected-edge/', 'Collected Edge'],
           ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
