@@ -2,16 +2,32 @@
 
 <div>
   <Badge text="alpha" type="warn" />
-  <a href="https://github.com/RoyalIcing/syrup">Code on GitHub</a>
+  <a href="https://github.com/RoyalIcing/syrup">Source on GitHub</a>
 </div>
 
 ---
 
 Store, present, and process content at the edge closest to your users with Cloudflare Workers.
 
+## Run Query
+
+<form class="collected-edge-form collected-edge-run-query-form">
+  <p>{{ status }}</p>
+
+  <fieldset>
+    <label>
+      Query:
+      <textarea v-model="query" rows="8"></textarea>
+    </label>
+    <button type="submit" name="runQuery" @click.prevent="runQuery">Run</button>
+    <p class="label">Result:</p>
+    <div>{{ queryResult }}</div>
+  </fieldset>
+</form>
+
 ## Add Markdown
 
-<form class="syrup-add-text-content-form">
+<form class="collected-edge-form collected-edge-add-text-content-form">
   <p>{{ status }}</p>
 
   <fieldset>
@@ -33,7 +49,7 @@ Store, present, and process content at the edge closest to your users with Cloud
 </form>
 
 <style lang="scss">
-.syrup-add-text-content-form {
+.collected-edge-form {
   .mr-3 {
     margin-right: 0.75rem;
   }
@@ -44,7 +60,7 @@ Store, present, and process content at the edge closest to your users with Cloud
     margin-bottom: 2.1rem;
     border: none;
   }
-  label {
+  label, .label {
     display: block;
     margin-bottom: 0.7rem;
     font-weight: bold;
@@ -79,6 +95,8 @@ export default {
     return {
       isDev: false,
       status: "",
+      query: "Viewer.ipAddress|>Digest.sha256",
+      queryResult: null,
       textContent: `# This is an example of Syrup
 
 Make changes, then press **Add** below to save this content.
@@ -100,6 +118,23 @@ Then click on **Preview HTML** below to see a preview inside a simple server-ren
     this.isDev = isDev;
   },
   methods: {
+    runQuery(event) {
+      const query = this.query;
+
+      const receiver = this;
+      fetch(`${this.baseURL}/pipeline/1/${encodeURIComponent(query)}`)
+        .then(function(response) {
+          console.log('result received', response.status);
+          return response.text();
+        })
+        .then(function(text) {
+          console.log('result text', text);
+          receiver.queryResult = text;
+        })
+        .catch(function(error) {
+          receiver.status = `Error: ${error.message}`;
+        });
+    },
     loadFromStore(event) {
       const sha256 = (this.sha256 || "").trim();
       if (!sha256) {
