@@ -18,9 +18,9 @@ We can see the minified bundle size, which is what the user’s browser will exe
 
 The download times are a good gauge for how long your users will be waiting (For just the download). You can see that 24.2KB doesn’t sound like much, but it will take roughly half a second to download on a slowish 3G connection.
 
-## Reduce image sizes
+## Speed up images
 
-The online [Essential Image Optimization](https://images.guide/) guide covers many processes and tools that can reduce image sizes to improve the experience for your users.
+The online [Essential Image Optimization](https://images.guide/) guide covers many processes and tools that can reduce image sizes and speed up their decoding to improve the experience for your users.
 
 ## Measure the experience
 
