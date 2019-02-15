@@ -1,4 +1,4 @@
-# Guide to Deploying Web Front Ends
+# Guide to Deploying Web Apps & Sites
 
 ## Cloudflare Workers
 

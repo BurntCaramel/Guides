@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Collected Systems",
+  title: "Collected: Guides & Tools",
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
@@ -7,16 +7,16 @@ module.exports = {
     ],
     sidebar: [
       ['/', 'Welcome'],
-      ['/principles/', 'Principles'],
       {
-        title: 'Guides to Making',
+        title: 'Guides',
         collapsable: false,
         children: [
-          ['/guides/fast-web/', 'Fast Web Apps and Sites'],
-          ['/guides/single-page-apps/', 'Single Page Apps'],
-          ['/guides/npm-packages/', 'NPM Packages'],
-          ['/guides/deploying-front-end/', 'Deploying Front End'],
+          ['/guides/fast-web/', 'Fast Web Apps'],
+          ['/guides/web-toolkits/', 'Web Toolkits'],
+          ['/guides/styling-components/', 'Styling Components'],
           ['/guides/documentation/', 'Writing Documentation'],
+          ['/guides/npm-packages/', 'Making NPM Packages'],
+          ['/guides/deploying-web/', 'Deploying Web Apps & Sites'],
           // {
           //   title: 'Documentation',
           //   children: [
@@ -28,13 +28,6 @@ module.exports = {
         ]
       },
       {
-        title: 'Conventions',
-        collapsable: false,
-        children: [
-          ['/conventions/schemas/', 'GraphQL Schemas']
-        ]
-      },
-      {
         title: 'Tools',
         collapsable: false,
         children: [
@@ -42,7 +35,15 @@ module.exports = {
           ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
-      }
+      },
+      {
+        title: 'Conventions',
+        collapsable: false,
+        children: [
+          ['/conventions/schemas/', 'GraphQL Schemas']
+        ]
+      },
+      ['/principles/', 'Principles']
     ],
     // displayAllHeaders: true
   }
