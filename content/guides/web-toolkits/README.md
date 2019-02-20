@@ -1,4 +1,4 @@
-# Guide to Making Single Page Apps
+# Guide to Web Toolkits
 
 ## [create-react-app](https://github.com/developit/preact-cli)
 
