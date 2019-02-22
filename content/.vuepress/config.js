@@ -17,6 +17,7 @@ module.exports = {
           ['/guides/documentation/', 'Writing Documentation'],
           ['/guides/npm-packages/', 'Making NPM Packages'],
           ['/guides/deploying-web/', 'Deploying Web Apps & Sites'],
+          ['/guides/writing-backends/', 'Writing Backends'],
           // {
           //   title: 'Documentation',
           //   children: [
