@@ -1,8 +1,8 @@
-# Syrup
+# CollectedQL
 
 <div>
   <Badge text="alpha" type="warn" />
-  <a href="https://github.com/RoyalIcing/syrup">Source on GitHub</a>
+  <a href="https://github.com/RoyalIcing/CollectedQL">Source on GitHub</a>
 </div>
 
 ---

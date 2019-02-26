@@ -32,7 +32,7 @@ module.exports = {
         title: 'Tools',
         collapsable: false,
         children: [
-          ['/tools/collected-edge/', 'Collected Edge'],
+          ['/tools/collectedql/', 'CollectedQL'],
           ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
