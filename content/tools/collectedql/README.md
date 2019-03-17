@@ -110,7 +110,7 @@ Then click on **Preview HTML** below to see a preview inside a simple server-ren
       return this.isDev ? "http://localhost:5533" : "https://collected.systems"
     },
     previewURL() {
-      return `${this.baseURL}/pipeline/1/"${this.sha256}"%7C%3EStore.readTextMarkdown%7C%3EMarkdown.toHTML%7C%3EHTML.wrapInPage`
+      return `${this.baseURL}/1/-pipeline/"${this.sha256}"%7C%3EStore.readTextMarkdown%7C%3EMarkdown.toHTML%7C%3EHTML.wrapInPage`
     }
   },
   beforeMount() {
@@ -122,7 +122,7 @@ Then click on **Preview HTML** below to see a preview inside a simple server-ren
       const query = this.query;
 
       const receiver = this;
-      fetch(`${this.baseURL}/pipeline/1/${encodeURIComponent(query)}`)
+      fetch(`${this.baseURL}/1/-pipeline/${encodeURIComponent(query)}`)
         .then(function(response) {
           console.log('result received', response.status);
           return response.text();
@@ -142,7 +142,7 @@ Then click on **Preview HTML** below to see a preview inside a simple server-ren
       }
 
       const receiver = this;
-      fetch(`${this.baseURL}/pipeline/1/"${sha256}"%7C%3EStore.readTextMarkdown`)
+      fetch(`${this.baseURL}/1/-pipeline/"${sha256}"%7C%3EStore.readTextMarkdown`)
         .then(function(response) {
           return response.text();
         })
@@ -155,7 +155,7 @@ Then click on **Preview HTML** below to see a preview inside a simple server-ren
     },
     addToStore(event) {
       const receiver = this;
-      fetch(`${this.baseURL}/pipeline/1/Input.read%7C%3EStore.addTextMarkdown`, {
+      fetch(`${this.baseURL}/1/-pipeline/Input.read%7C%3EStore.addTextMarkdown`, {
         method: "post",
         body: this.textContent
       })
