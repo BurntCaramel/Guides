@@ -33,7 +33,6 @@ module.exports = {
         collapsable: false,
         children: [
           ['/tools/collectedql/', 'CollectedQL'],
-          ['/tools/collected-source/', 'Collected Source'],
           ['/tools/datadown/', 'Datadown']
         ]
       },
