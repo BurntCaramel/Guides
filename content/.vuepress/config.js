@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Collected 💎 Guides & Tools",
+  title: "Collected ❄️ Guides & Tools",
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
