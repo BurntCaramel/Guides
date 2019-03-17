@@ -12,7 +12,9 @@ Check sizes of current or future dependencies with [BundlePhobia](https://bundle
 
 #### Example: Lodash
 
-For example, let’s look at **lodash**: https://bundlephobia.com/result?p=lodash@4.17.11
+For example, let’s look at **lodash**: <https://bundlephobia.com/result?p=lodash@4.17.11>
+
+![Lodash’s bundle size statistics](./lodash-stats.png)
 
 We can see the minified bundle size, which is what the user’s browser will execute. The minified + gzipped size is the amount that will be downloaded. It is ideal to keep **both** of these sizes down: while speeding up the download will make for a faster user experience, the unzipped size still affects speed as it must be executed before the user sees anything. On a low speed mobile phone, this can be a very noticable effect.
 
