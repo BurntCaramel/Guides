@@ -1,34 +1,37 @@
-# Making Single Page Apps & Websites Fast
+# Making Web Apps & Sites Fast
 
 ## Reduce JavaScript
-
-### Why asset sizes matter
-
-In a mobile world, every kilobyte matters.
 
 ### Choose your npm packages smartly with [BundlePhobia](https://bundlephobia.com/)
 
 Check sizes of current or future dependencies with [BundlePhobia](https://bundlephobia.com/). Simply enter the name of a npm package, and it will tell you how many downloadable kilobytes it will become, and how long that will take.
 
-#### Example: Lodash
+#### Example: everyone’s favorite utility library, Lodash
 
-For example, let’s look at **lodash**: <https://bundlephobia.com/result?p=lodash@4.17.11>
+Let’s look at [**the bundle stats for lodash**](https://bundlephobia.com/result?p=lodash@4.17.11):
 
 ![Lodash’s bundle size statistics](./lodash-stats.png)
 
-We can see the minified bundle size, which is what the user’s browser will execute. The minified + gzipped size is the amount that will be downloaded. It is ideal to keep **both** of these sizes down: while speeding up the download will make for a faster user experience, the unzipped size still affects speed as it must be executed before the user sees anything. On a low speed mobile phone, this can be a very noticable effect.
+The first figure we see is the minified bundle size, which is what the user’s browser will parse and execute. A larger amount of code will intuitively on average take a longer time to execute. On a low speed mobile phone, this can be a very noticable effect — in the order of several seconds. If this code is controlling what is displayed on screen, then the user will be waiting until the result is ready.
 
-The download times are a good gauge for how long your users will be waiting (For just the download). You can see that 24.2KB doesn’t sound like much, but it will take roughly half a second to download on a slowish 3G connection.
+The minified + gzipped size is the amount that will be downloaded over the network. If you have lots of dependencies like lodash and the other many choices of JavaScript libraries, it total they can added up to many hundreds of kilobytes or even megabytes. While cellular plans are getting larger, many people will have a low limit before they start getting penalized for breaching so be mindful.
 
-## Speed up images
-
-The online [Essential Image Optimization](https://images.guide/) guide covers many processes and tools that can reduce image sizes and speed up their decoding to improve the experience for your users.
+The download times give a rough baseline for how long your users will be waiting. You can see that 24.2KB doesn’t sound like much, but it will take roughly half a second to download on a slowish 3G connection. And note that this does not include the time for execution. So someone on a older phone on a slow connection could have a really poor experience of waiting and waiting.
 
 ## Measure the experience
 
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
 
+![license](https://badgen.net/github/license/GoogleChrome/lighthouse)
+![github stars](https://badgen.net/github/stars/GoogleChrome/lighthouse?color=yellow)
+
 Audit performance and accessibility issues with Lighthouse. The same functionality is also available in Google Chrome’s Audits panel.
+
+### [Calibre](https://calibreapp.com/)
+
+![monthly cost](https://badgen.net/badge/monthly/$29+/orange?icon=github)
+
+Track your site’s performance over time. Measure page loading metrics such as time to first-paint and interactive. Compare between a mobile and desktop device.
 
 ### [httpstat](https://github.com/reorx/httpstat) (command line)
 
@@ -56,3 +59,8 @@ last-modified: Sun, 12 Aug 2018 23:21:26 GMT
                                                       starttransfer:1105ms           |
                                                                                  total:1106ms 
 ```
+
+
+## Improve and compress images
+
+The online [Essential Image Optimization](https://images.guide/) guide covers many processes and tools that can reduce image sizes and speed up their decoding to improve the experience for your users.
