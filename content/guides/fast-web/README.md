@@ -23,9 +23,19 @@ The download times give a rough baseline for how long your users will be waiting
 ### [Lighthouse](https://developers.google.com/web/tools/lighthouse/) (Open Source)
 
 ![license](https://badgen.net/github/license/GoogleChrome/lighthouse)
-![github stars](https://badgen.net/github/stars/GoogleChrome/lighthouse?color=yellow)
+[![github stars](https://badgen.net/github/stars/GoogleChrome/lighthouse?color=yellow)](https://github.com/GoogleChrome/lighthouse)
 
 Audit performance and accessibility issues with Lighthouse. The same functionality is also available in Google Chrome’s Audits panel.
+
+### [WebPageTest](https://webpagetest.org/easy) (Open Source)
+
+[![github stars](https://badgen.net/github/stars/WPO-Foundation/webpagetest?color=yellow)](https://github.com/WPO-Foundation/webpagetest)
+
+Test how your site performs on Chrome on a Motorola G with **slow 3G** — a 400 Kbps 3G connection with 400ms of latency.
+
+The site might look crude, but it gives you a wealth of information, including detailed request/response waterfall diagrams, screenshots, and even pie charts of the categories of processing on the CPU.
+
+![WebPageTest’s processing pie charts](./webpagetest-processing-charts.png)
 
 ### [Calibre](https://calibreapp.com/) (SaaS)
 
@@ -33,12 +43,12 @@ Audit performance and accessibility issues with Lighthouse. The same functionali
 
 Track your site’s performance over time. Measure page loading metrics from Lighthouse such as time to first-paint and interactive. Compare the performance between a mobile and desktop device. Set budgets and notify via email or Slack.
 
-![Screenshot of Calibre chart showing Chrome on desktop and iPhone](./illustration-metric-2e01bad6f63609d7001feefc7918e050db54518ffbae00476d8fe4fdafc629d5.svg)
+![Calibre chart showing Chrome on desktop and iPhone](./illustration-metric-2e01bad6f63609d7001feefc7918e050db54518ffbae00476d8fe4fdafc629d5.svg)
 
 ### [httpstat](https://github.com/reorx/httpstat) (Open Source CLI)
 
 ![license](https://badgen.net/github/license/reorx/httpstat)
-![github stars](https://badgen.net/github/stars/reorx/httpstat?color=yellow)
+[![github stars](https://badgen.net/github/stars/reorx/httpstat?color=yellow)](https://github.com/reorx/httpstat)
 
 See durations of:
 
