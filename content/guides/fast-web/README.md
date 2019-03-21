@@ -103,14 +103,22 @@ Custom font are one of the heaviest assets you can ship on a website. Not only c
 
 - [Preload, prefetch and other `<link>` tags](https://3perf.com/blog/link-rels/)
 
-## Experience a slow network for yourself
-
-### [Google Guide: Understanding Low Bandwidth and High Latency](https://developers.google.com/web/fundamentals/performance/poor-connectivity/)
-
-> It's important to understand what using your app or site feels like when connectivity is poor or unreliable. A range of software tools can help you emulate and simulate low bandwidth and high latency.
-
 ## Remove or lazily load third party JavaScript
 
 ### [Google Guide: Loading Third-Party JavaScript](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/)
 
 > Often, performance problems slowing pages down are due to third-party scripts: ads, analytics, trackers, social-media buttons, and so on.
+
+## Cache and fingerprint your assets
+
+### [Google Guide: HTTP Caching](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching)
+
+> Fetching something over the network is both slow and expensive. Large responses require many roundtrips between the client and server, which delays when they are available and when the browser can process them, and also incurs data costs for the visitor. As a result, the ability to cache and reuse previously fetched resources is a critical aspect of optimizing for performance.
+>
+> The good news is that every browser ships with an implementation of an HTTP cache. All you need to do is ensure that each server response provides the correct HTTP header directives to instruct the browser on when and for how long the browser can cache the response.
+
+## Experience a slow network for yourself
+
+### [Google Guide: Understanding Low Bandwidth and High Latency](https://developers.google.com/web/fundamentals/performance/poor-connectivity/)
+
+> It's important to understand what using your app or site feels like when connectivity is poor or unreliable. A range of software tools can help you emulate and simulate low bandwidth and high latency.
