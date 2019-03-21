@@ -1,23 +1,23 @@
 # Guide to Deploying Web Apps & Sites
 
-## Cloudflare Workers
+## Cloudflare Workers: APIs, proxies, dynamic sites
 
-- Costs $5 per month, plus base cost of Cloudflare service
+- Costs $5 per month, plus base cost of Cloudflare plan
 
 ### Advantages
 
-- Can run dynamic code, not just static
-- Deploys to 120+ centers around the world
+- Run dynamic code at low latency
+- Deploys to 160+ centers around the world
 - Can proxy requests to anywhere
 - Use JavaScript, TypeScript, and Webassembly
+- Can use Terraform or Serverless to deploy
 
 ### Disadvantages
 
-- Need origin server behind
 - Doesn’t support Node.js APIs
 - Dedicated HTTPS (not shared certificate) costs additional fee
 
-## Netlify
+## Netlify: single page apps, static sites
 
 ### Advantages
 
@@ -38,7 +38,7 @@
 - Only Lambda language is JavaScript
 - Only Lambda region is AWS’s us-east
 
-## Zeit Now
+## Zeit Now: APIs, single page apps, static sites
 
 ### Advantages
 
