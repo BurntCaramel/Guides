@@ -1,14 +1,14 @@
 # Guides and tools for building the modern web
 
-- Guides on key technologies 📌
+- Guides on key technologies 🛠
 - Recommendations on workflows 💁🏾‍
 - Open source building blocks 🎁
 
 ## Who is this for?
 
-While some content is for ‘coders’, this is more largely aimed at designers, project managers, and anyone involved in a digital project.
+This is aimed at people working on web apps and sites. While many techniques might require coding, we often discuss at the conceptual level so managers and designers can know more about making for the web.
 
-## What technologies and subjects will be covered?
+## What subjects and technologies will be covered?
 
 - HTML and accessibility
 - CSS and styling
