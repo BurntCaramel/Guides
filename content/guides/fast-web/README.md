@@ -29,7 +29,7 @@ Audit performance and accessibility issues with Lighthouse. The same functionali
 
 ### [Calibre](https://calibreapp.com/) (SaaS)
 
-![monthly cost](https://badgen.net/badge/monthly/$29+/orange?icon=github)
+![monthly cost](https://badgen.net/badge/monthly/$29+/green)
 
 Track your site’s performance over time. Measure page loading metrics from Lighthouse such as time to first-paint and interactive. Compare the performance between a mobile and desktop device. Set budgets and notify via email or Slack.
 
