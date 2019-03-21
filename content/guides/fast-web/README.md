@@ -59,7 +59,7 @@ See durations of:
 - and how long that data took to fully transfer to you
 
 ```
-> httpstat https://collected.systems/
+> httpstat https://collected.guide/
 Connected to 13.56.48.87:443 from 0.0.0.0:61669
 
 HTTP/2 200 
@@ -89,6 +89,28 @@ This guide covers many processes and tools that can reduce image sizes and speed
 
 Optimize and lossless compress PNGs, SVGs, and JPEGs.
 
+## Optimize web fonts
+
+Custom font are one of the heaviest assets you can ship on a website. Not only can they be a big download, but in the time they take to download they can leave the user seeing no text on the page.
+
+### [Google Guide: Web Font Optimization](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/webfont-optimization) (Free)
+
+> A “full” webfont that includes all stylistic variants, which you may not need, plus all the glyphs, which may go unused, can easily result in a multi-megabyte download.
+
+> The ”race” between the first paint of page content, which can be done shortly after the render tree is built, and the request for the font resource is what creates the ”blank text problem” where the browser might render page layout but omits any text.
+
 ## Start loading earlier
 
 - [Preload, prefetch and other `<link>` tags](https://3perf.com/blog/link-rels/)
+
+## Experience a slow network for yourself
+
+### [Google Guide: Understanding Low Bandwidth and High Latency](https://developers.google.com/web/fundamentals/performance/poor-connectivity/)
+
+> It's important to understand what using your app or site feels like when connectivity is poor or unreliable. A range of software tools can help you emulate and simulate low bandwidth and high latency.
+
+## Remove or lazily load third party JavaScript
+
+### [Google Guide: Loading Third-Party JavaScript](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/loading-third-party-javascript/)
+
+> Often, performance problems slowing pages down are due to third-party scripts: ads, analytics, trackers, social-media buttons, and so on.
