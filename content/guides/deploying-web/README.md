@@ -2,10 +2,10 @@
 
 ## [Cloudflare Workers:](https://workers.dev/) APIs, proxies, dynamic sites
 
-[![$5 base cost for unlimited users](https://badgen.net/badge/team/$5%20monthly/green)][cloudflare workers pricing]
-[![bandwidth is free](https://badgen.net/badge/bandwidth/free/green)][cloudflare workers pricing]
-[![first 10 million requests are free](https://badgen.net/badge/first%2010M%20requests/free/green)][cloudflare workers pricing]
-[![$.50 per million requests after](https://badgen.net/badge/per%201M%20request%20after/$0.50/green)][cloudflare workers pricing]
+[![$5 base cost for unlimited users](https://badgen.net/badge/team/$5%20monthly/green)
+![bandwidth is free](https://badgen.net/badge/bandwidth/free/green)
+![first 10 million requests are free](https://badgen.net/badge/first%2010M%20requests/free/green)
+![$.50 per million requests after](https://badgen.net/badge/per%201M%20request%20after/$0.50/green)][cloudflare workers pricing]
 
 ### Advantages
 
@@ -29,9 +29,9 @@
 
 ## [Netlify:](https://www.netlify.com/) single page apps, static sites
 
-[![monthly cost for 1 user](https://badgen.net/badge/1%20user/free/green)][netlify pricing]
-[![$49 monthly for 5 users plus $9 per additional user](https://badgen.net/badge/5%20users/$49%20monthly%20+%20$9%20per%20user/green)][netlify pricing]
-[![$290 monthly for 10 roled users plus $29 per additional user](https://badgen.net/badge/10%20users%20w%20roles/$290%20monthly%20+%20$29%20per%20user/green)][netlify pricing]
+[![monthly cost for 1 user](https://badgen.net/badge/1%20user/free/green)
+![$49 monthly for 5 users plus $9 per additional user](https://badgen.net/badge/5%20users/$49%20monthly%20+%20$9%20per%20user/green)
+![$290 monthly for 10 roled users plus $29 per additional user](https://badgen.net/badge/10%20users%20w%20roles/$290%20monthly%20+%20$29%20per%20user/green)][netlify pricing]
 
 ### Advantages
 
@@ -55,13 +55,13 @@
 
 ## [Zeit Now:](https://zeit.co/now) APIs, single page apps, static sites
 
-[![free for 5 users](https://badgen.net/badge/5%20users/$0/green)][now pricing]
-[![$25 per user above 5 users](https://badgen.net/badge/6+%20users/$25%20per%20user/green)][now pricing]
+[![free for 5 users](https://badgen.net/badge/5%20users/$0/green)
+![$25 per user above 5 users](https://badgen.net/badge/6+%20users/$25%20per%20user/green)][now pricing]
 
-[![$0.99 base cost](https://badgen.net/badge/base/$0.99%20monthly/green)][now pricing]
-[![$0.1 per GB of bandwidth](https://badgen.net/badge/per%20GB%20bandwidth/$0.1/green)][now pricing]
-[![$0.40 per million requests](https://badgen.net/badge/per%201M%20request/$0.40/green)][now pricing]
-[![$0.000034 per GB of RAM per second](https://badgen.net/badge/per%20GB%20RAM%20per%20second/$0.000034/green)][now pricing]
+[![$0.99 base cost](https://badgen.net/badge/base/$0.99%20monthly/green)
+![$0.1 per GB of bandwidth](https://badgen.net/badge/per%20GB%20bandwidth/$0.1/green)
+![$0.40 per million requests](https://badgen.net/badge/per%201M%20request/$0.40/green)
+![$0.000034 per GB of RAM per second](https://badgen.net/badge/per%20GB%20RAM%20per%20second/$0.000034/green)][now pricing]
 
 ### Advantages
 
