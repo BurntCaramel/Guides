@@ -79,6 +79,6 @@ This guide covers many processes and tools that can reduce image sizes and speed
 
 Optimize and lossless compress PNGs, SVGs, and JPEGs.
 
-## Preload, prefetching
+## Start loading earlier
 
 - [Preload, prefetch and other `<link>` tags](https://3perf.com/blog/link-rels/)
