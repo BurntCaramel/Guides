@@ -9,5 +9,7 @@
 ![monthly downloads](https://badgen.net/npm/dm/microbundle?color=yellow)
 ![github stars](https://badgen.net/github/stars/developit/microbundle?color=yellow)
 
-- Supports TypeScript, JSX
-- Uses Rollup
+- Create a Node module ready to be published to NPM
+- Produce multiple formats at once: ES Modules (`import` / `export`), Node’s CommonJS (`require()` / `module.exports`), and UMD that works everywhere.
+- Supports TypeScript, JSX, ES+, async/await
+- Uses Rollup to efficiently bundle
