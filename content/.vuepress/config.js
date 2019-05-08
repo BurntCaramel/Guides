@@ -1,9 +1,10 @@
 module.exports = {
+  // base: "/guides/",
   title: "Royal Icing",
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
-      { text: "Blog", link: "/" },
+      { text: "Blog", link: "https://icing.space/" },
       { text: "Guides", link: "/guides/" },
       { text: "Tools", link: "/tools/" },
       // { text: "GitHub", link: "https://github.com/RoyalIcing" }
