@@ -1,12 +1,12 @@
 module.exports = {
-  title: "Collected ❄️ A Guide to the Modern Web",
+  title: "Royal Icing",
   description: "Guides on creating systems for your team",
   themeConfig: {
     nav: [
       { text: 'GitHub', link: 'https://github.com/RoyalIcing' }
     ],
     sidebar: [
-      ['/', 'Welcome'],
+      // ['/', 'Blog'],
       {
         title: 'Guides',
         collapsable: false,
@@ -18,6 +18,7 @@ module.exports = {
           ['/guides/npm-packages/', 'Making NPM Packages'],
           ['/guides/deploying-web/', 'Deploying Web Apps & Sites'],
           ['/guides/writing-backends/', 'Writing Backends'],
+          ['/guides/principles/', 'Principles'],
           // {
           //   title: 'Documentation',
           //   children: [
@@ -36,14 +37,13 @@ module.exports = {
           ['/tools/datadown/', 'Datadown']
         ]
       },
-      {
-        title: 'Conventions',
-        collapsable: false,
-        children: [
-          ['/conventions/schemas/', 'GraphQL Schemas']
-        ]
-      },
-      ['/principles/', 'Principles']
+      // {
+      //   title: 'Conventions',
+      //   collapsable: false,
+      //   children: [
+      //     ['/conventions/schemas/', 'GraphQL Schemas']
+      //   ]
+      // }
     ],
     // displayAllHeaders: true
   }
