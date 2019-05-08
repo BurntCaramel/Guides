@@ -11,6 +11,7 @@ module.exports = {
         title: 'Guides',
         collapsable: false,
         children: [
+          ['/guides/', 'Intro'],
           ['/guides/fast-web/', 'Fast Web Apps'],
           ['/guides/web-toolkits/', 'Web Toolkits'],
           ['/guides/styling-components/', 'Styling Components'],
