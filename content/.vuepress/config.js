@@ -36,6 +36,7 @@ module.exports = {
             ["/tools/collectedql/", "CollectedQL"],
             ["/tools/datadown/", "Datadown"],
             ["/tools/principles/", "Principles"]
+            ["/tools/support/", "Support"]
           ]
         }
       ]
