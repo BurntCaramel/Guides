@@ -18,3 +18,5 @@ An open source Mac app for website auditing and crawling, which I first started 
 - Load and preview images
 - Preview source HTML
 - Export to CSV
+
+[Privacy Policy](/tools/lantern/privacy-policy/)
