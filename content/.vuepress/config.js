@@ -16,7 +16,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["/guides/", "Intro"],
-            ["/guides/fast-web/", "Fast Web Apps"],
+            ["/guides/fast-web/", "Faster Web Apps"],
             ["/guides/web-toolkits/", "Web Toolkits"],
             ["/guides/styling-components/", "Styling Components"],
             ["/guides/documentation/", "Writing Documentation"],
@@ -32,6 +32,7 @@ module.exports = {
           collapsable: false,
           children: [
             ["/tools/", "Intro"],
+            ["/tools/lantern/", "Lantern"],
             ["/tools/collectedql/", "CollectedQL"],
             ["/tools/datadown/", "Datadown"],
             ["/tools/principles/", "Principles"]
