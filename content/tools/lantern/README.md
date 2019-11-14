@@ -8,6 +8,10 @@
 
 ---
 
+[Free download on the Mac App Store](https://itunes.apple.com/us/app/lantern-website-crawler-for/id991526452?ls=1&mt=12)
+
+![Screenshot of Lantern](./lantern-screenshot.png)
+
 An open source Mac app for website auditing and crawling, which I first started in 2015.
 
 - Crawl pages on any website
