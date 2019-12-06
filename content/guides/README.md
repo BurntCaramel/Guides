@@ -14,7 +14,7 @@ This content is aimed at people working on web apps and sites, whether as a prim
 - CSS and styling
 - JavaScript and interactivity
 - React
-- Vue
+- Golang
 - Structuring components
 - Making useful documentation
 - Design systems
