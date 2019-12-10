@@ -19,6 +19,7 @@ module.exports = {
             ["/guides/fast-web/", "Faster Web Apps"],
             ["/guides/go-backends/", "Go Backends"],
             ["/guides/documentation/", "Writing Documentation"],
+            ["/guides/accessible-web/", "Accessible Web"],
             ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
             ["/guides/web-toolkits/", "Web Toolkits"],
             ["/guides/styling-components/", "Styling Components"],
