@@ -2,6 +2,9 @@ module.exports = {
   // base: "/guides/",
   title: "Royal Icing",
   description: "Guides on creating systems for your team",
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://icing.space/wp-content/themes/royalicing/fonts/728649/97244AA2CF2CCFB1E.css' }]
+  ],
   themeConfig: {
     nav: [
       { text: "Blog", link: "/" },
