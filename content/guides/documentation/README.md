@@ -3,6 +3,7 @@
 ## Writing
 
 - [Write the Docs](https://www.writethedocs.org/)
+- [Checklist for Plain Language | plainlanguage.gov](https://plainlanguage.gov/resources/checklists/checklist/)
 
 ### Who is your audience?
 
