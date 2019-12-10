@@ -18,10 +18,10 @@ module.exports = {
             ["/guides/", "Intro"],
             ["/guides/fast-web/", "Faster Web Apps"],
             ["/guides/go-backends/", "Go Backends"],
+            ["/guides/documentation/", "Writing Documentation"],
             ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
             ["/guides/web-toolkits/", "Web Toolkits"],
             ["/guides/styling-components/", "Styling Components"],
-            ["/guides/documentation/", "Writing Documentation"],
             ["/guides/npm-packages/", "Making NPM Packages"],
           ]
         }
