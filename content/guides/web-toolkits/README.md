@@ -42,18 +42,6 @@ Because it starts so lightweight, other frameworks such as React, Vue, or Elm ca
 
 Vue CLI has a nice range of plugins such as TypeScript and PostCSS. You can customize the underlying Webpack config, which Create React App does not officially support.
 
-### Gatsby
-
-_To come_
-
-### React Static
-
-_To come_
-
-### NWB
-
-_To come_
-
 ## React library picks
 
 ### [Reach Router](https://reach.tech/router)
