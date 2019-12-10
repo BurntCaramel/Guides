@@ -1,6 +1,6 @@
 # Guides for making the modern web
 
-- Guides on key technologies 🛠
+- Opinionated guides on key technologies 🛠
 - Recommendations on workflows 💁🏾‍
 - Open source building blocks and standards 🎁
 
