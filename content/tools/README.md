@@ -4,6 +4,6 @@
 
 An open source Mac app for website auditing and crawling, useful for SEO or improving the content on your websites.
 
-## [CollectedQL](/tools/collectedql/)
+## [Dovetail](/tools/dovetail/)
 
-CollectedQL lets you query from content sources using GraphQL. Available content sources include GitHub, Trello, and Figma.
+Friendly HTML Components for Go, inspired by SwiftUI, Elm, React.
