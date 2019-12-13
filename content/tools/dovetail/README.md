@@ -1,6 +1,7 @@
 # Dovetail
 
-- [GitHub](https://github.com/RoyalIcing/Dovetail)
+- [GitHub](https://github.com/RoyalIcing/dovetail)
+- [Documentiation]([Documentation]([![GoDoc](https://godoc.org/github.com/RoyalIcing/dovetail?status.svg)](https://godoc.org/github.com/RoyalIcing/dovetail)))
 
 Friendly HTML Components for Go, inspired by SwiftUI, Elm, React.
 
