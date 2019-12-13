@@ -37,7 +37,7 @@ module.exports = {
           children: [
             ["/tools/", "Intro"],
             ["/tools/lantern/", "Lantern"],
-            ["/tools/collectedql/", "CollectedQL"],
+            ["/tools/dovetail/", "Dovetail"],
             ["/tools/datadown/", "Datadown"],
             ["/tools/principles/", "Principles"],
             ["/tools/support/", "Support"]
