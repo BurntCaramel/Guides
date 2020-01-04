@@ -1,6 +1,8 @@
 # Guide to Making Golang Backends
 
 - [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
+- [The Go type system for newcomers](https://rakyll.org/typesystem/)
+- [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/)
 
 ## API Design
 
