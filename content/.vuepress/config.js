@@ -5,6 +5,7 @@ module.exports = {
   head: [
     ['link', { rel: 'stylesheet', href: 'https://icing.space/wp-content/themes/royalicing/fonts/728649/97244AA2CF2CCFB1E.css' }]
   ],
+  port: 4848,
   themeConfig: {
     nav: [
       { text: "Blog", link: "/" },

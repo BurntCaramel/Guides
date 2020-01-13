@@ -1,6 +1,6 @@
 dev:
-	yarn dev
-	@echo "Open http://localhost:8080"
+	npm run dev
+	@echo "Open http://localhost:4848"
 
 deploy:
 	cd terraform && terraform apply
