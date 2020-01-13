@@ -24,6 +24,7 @@ module.exports = {
             ["/guides/go-backends/", "Go Backends"],
             ["/guides/documentation/", "Writing Documentation"],
             ["/guides/accessible-web/", "Accessible Web"],
+            ["/guides/accessibility-first-testing/", "Accessibility-First Testing"],
             ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
             ["/guides/web-toolkits/", "Web Toolkits"],
             ["/guides/styling-components/", "Styling Components"],
