@@ -3,6 +3,7 @@
 - [Practical Go: Real world advice for writing maintainable Go programs](https://dave.cheney.net/practical-go/presentations/qcon-china.html)
 - [The Go type system for newcomers](https://rakyll.org/typesystem/)
 - [Using contexts to avoid leaking goroutines](https://rakyll.org/leakingctx/)
+- [Go 101: a deep and thorough understanding of Go](https://go101.org/article/101.html)
 
 ## API Design
 
