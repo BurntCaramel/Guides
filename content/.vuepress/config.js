@@ -25,6 +25,7 @@ module.exports = {
             ["/guides/documentation/", "Writing Documentation"],
             ["/guides/accessible-web/", "Accessible Web"],
             ["/guides/accessibility-first-testing/", "Accessibility-First Testing"],
+            ["/guides/typescript-patterns/", "TypeScript Patterns"],
             ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
             ["/guides/web-toolkits/", "Web Toolkits"],
             ["/guides/styling-components/", "Styling Components"],
