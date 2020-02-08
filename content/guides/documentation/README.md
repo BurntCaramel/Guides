@@ -41,6 +41,6 @@
 
 ## Syntax Highlighting
 
-### Highlight.js
-
 ### Prism
+
+Prism and Highlight.js are two popular syntax highlighting libraries. I’ve had much more success with getting Prism working.
