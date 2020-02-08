@@ -36,3 +36,7 @@ import { render } from "@testing-library/react";
 
 type Rendered = ReturnType<typeof render>;
 ```
+
+## Testing TypeScript types
+
+- [Testing static types in TypeScript](https://2ality.com/2019/07/testing-static-types.html)
