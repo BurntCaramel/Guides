@@ -10,3 +10,7 @@
 ## ARIA Roles and Attributes
 
 - [Marking elements as the current one using aria-current](https://www.accessibility-developer-guide.com/examples/sensible-aria-usage/current/)
+
+## Tools and Browser Extensions
+
+- [A Chrome extension that allows you see and navigate the landmarks on the current page](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp)
