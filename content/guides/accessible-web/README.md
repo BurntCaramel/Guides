@@ -4,6 +4,22 @@
 
 ## Landmarks: where?
 
+### The _main_ content
+
+Do you ever skip the intro on Netflix? Imagine having to sit through a 2 minute sequence every time if that button didn’t exist. We’re not interested: we want the **main** part of the show. Every episode has the timestamp of when the _real_ show starts, and that’s what this skip button jumps ahead to.
+
+The `<main>` element is similar. It holds the primary content that the user is interested in. The user can _skip_ ahead. Past repetitive stuff like navigation links and legal text, and so these should be kept outside of `<main>`.
+
+### _Navigating_ around
+
+### _Searching_
+
+### _Articles_ of interest
+
+### Headers and footers
+
+### Heirarchy of importance
+
 ## Roles: what?
 
 ## Widgets: how?
