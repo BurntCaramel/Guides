@@ -29,6 +29,10 @@ type Pen = Extract<DeskItem, { type: "pen" }>; // { type: "pen"; penType: "ballp
 type PenType = Pen["penType"]; // "ballpoint" | "rollerball" | "fountain"
 ```
 
+## More readable discriminated unions
+
+https://github.com/RoyalIcing/pivots
+
 ## Borrowing the types of a third-party library
 
 ```typescript
