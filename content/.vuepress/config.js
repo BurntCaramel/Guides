@@ -21,7 +21,9 @@ module.exports = {
           collapsable: false,
           children: [
             ["/guides/", "❄️ Welcome"],
-            ["/guides/accessible-web/", "💃 Accessible Web"],
+            // ["/guides/accessible-web/", "💃 Accessible Web"],
+            // ["/guides/accessible-web/", "💃 Achievable Web"],
+            ["/guides/accessible-web/", "😍 Approachable Web"],
             ["/guides/fast-web/", "🏎 Faster Web"],
             ["/guides/accessibility-first-testing/", "🧪 Accessibility-First Testing"],
             ["/guides/go-backends/", "🏍 Simple Backends"],
