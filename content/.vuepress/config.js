@@ -11,6 +11,7 @@ module.exports = {
       { text: "Blog", link: "/" },
       { text: "Guides", link: "/guides/" },
       { text: "Tools", link: "/tools/" },
+      { text: "Bookshelf", link: "/recommendations/" },
       // { text: "GitHub", link: "https://github.com/RoyalIcing" }
     ],
     sidebar: {
@@ -20,11 +21,11 @@ module.exports = {
           collapsable: false,
           children: [
             ["/guides/", "Intro"],
-            ["/guides/fast-web/", "Faster Web Apps"],
+            ["/guides/accessible-web/", "Accessible Web"],
+            ["/guides/fast-web/", "Faster Web"],
+            ["/guides/accessibility-first-testing/", "Accessibility-First Testing"],
             ["/guides/go-backends/", "Go Backends"],
             ["/guides/documentation/", "Writing Documentation"],
-            ["/guides/accessible-web/", "Accessible Web"],
-            ["/guides/accessibility-first-testing/", "Accessibility-First Testing"],
             ["/guides/typescript-patterns/", "TypeScript Patterns"],
             ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
             ["/guides/web-toolkits/", "Web Toolkits"],
