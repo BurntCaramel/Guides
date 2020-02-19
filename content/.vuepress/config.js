@@ -20,7 +20,7 @@ module.exports = {
           title: "Guides by Patrick Smith",
           collapsable: false,
           children: [
-            ["/guides/", "❄️ Intro"],
+            ["/guides/", "❄️ Welcome"],
             ["/guides/accessible-web/", "💃 Accessible Web"],
             ["/guides/fast-web/", "🏎 Faster Web"],
             ["/guides/accessibility-first-testing/", "🧪 Accessibility-First Testing"],
