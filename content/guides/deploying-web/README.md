@@ -9,7 +9,7 @@
 
 ### Advantages
 
-- Deploys to 160+ centers around the world
+- Deploys to 200+ centers around the world
 - Use JavaScript, TypeScript, and WebAssembly
 - Server render at low latency
 - Proxy requests to anywhere using `fetch()`
