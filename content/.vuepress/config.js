@@ -17,20 +17,20 @@ module.exports = {
     sidebar: {
       "/guides/": [
         {
-          title: "Guides",
+          title: "Guides by Patrick Smith",
           collapsable: false,
           children: [
-            ["/guides/", "Intro"],
-            ["/guides/accessible-web/", "Accessible Web"],
-            ["/guides/fast-web/", "Faster Web"],
-            ["/guides/accessibility-first-testing/", "Accessibility-First Testing"],
-            ["/guides/go-backends/", "Go Backends"],
-            ["/guides/documentation/", "Writing Documentation"],
-            ["/guides/typescript-patterns/", "TypeScript Patterns"],
-            ["/guides/deploying-web/", "Deploying Web Apps & Sites"],
-            ["/guides/web-toolkits/", "Web Toolkits"],
-            ["/guides/styling-components/", "Styling Components"],
-            ["/guides/npm-packages/", "Making NPM Packages"],
+            ["/guides/", "❄️ Intro"],
+            ["/guides/accessible-web/", "💃 Accessible Web"],
+            ["/guides/fast-web/", "🏎 Faster Web"],
+            ["/guides/accessibility-first-testing/", "🧪 Accessibility-First Testing"],
+            ["/guides/go-backends/", "🏍 Simple Go Backends"],
+            ["/guides/documentation/", "✏️ Writing Documentation"],
+            ["/guides/typescript-patterns/", "🏂 TypeScript Patterns"],
+            ["/guides/deploying-web/", "💸 Deploying"],
+            ["/guides/web-toolkits/", "🍱 Web Toolkits"],
+            ["/guides/styling-components/", "🖼 Styling Components"],
+            ["/guides/npm-packages/", "🧩 Making NPM Packages"],
           ]
         }
       ],
