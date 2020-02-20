@@ -12,17 +12,37 @@ The `<main>` element is similar. It holds the primary content that the user is i
 
 ### _Navigating_ around
 
+Visually it’s usually easy to find the navigation bar — it’s up top or in a sidebar, and holds a series of links. But there's no rule here (find the thing with lots of links inside), so we need a specific HTML element: `<nav>`.
+
+Like the skipping to the main content, nav is like pressing the menu button on a remote.
+
 ### _Searching_
+
+Again in the world of Netflix, searching is a common task. What if you had to scroll through 50 movie posters to get to the search box? You would probably curse or give up.
+
+Adding the `role` attribute with `"searchbox"` adds it as a landmark, allowing people to jump straight to the search and quickly get searching.
 
 ### _Articles_ of interest
 
 ### Headers and footers
 
+What's the difference between a header and footer? Well, headers appear at the top and footers at the bottom, right?
+
 ### Heirarchy of importance
+
+What’s the most important part of the page is a good question to ask. But so is: what’s of less importance? What is acting as support to a bigger element of the page?
+
+Using `<aside>` can let browsers know that what is inside is supporting content. It’s not essential, but it could be interesting if someone wants to dive in deeper. 
 
 ## Roles: what?
 
 ## Widgets: how?
+
+## Checklist
+
+- Landmarks: familiar touch points
+- Roles: what are these things?
+- Widget: how can I control this thing?
 
 ## Patterns
 
