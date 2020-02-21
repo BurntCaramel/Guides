@@ -35,6 +35,7 @@ module.exports = {
             ["/guides/web-toolkits/", "🍱 Toolkits"],
             ["/guides/styling-components/", "🖼 Styling Components"],
             ["/guides/npm-packages/", "🧩 Making NPM Packages"],
+            ["https://github.com/RoyalIcing/Guides/tree/master/content/guides", "Source on GitHub"],
           ]
         }
       ],
