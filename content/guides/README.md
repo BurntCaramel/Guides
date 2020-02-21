@@ -6,7 +6,7 @@
 
 ## Who for?
 
-People working on web apps and sites. We often discuss at the conceptual level so managers and designers can also know more about making for the web, and influence their team. It’s also for me — useful links I want return to often.
+People working on web apps and sites — and not just devs. We often discuss at the conceptual level so managers and designers can also know more about making for the web, and influence their team. It’s also for me — useful links I want return to often.
 
 ## What subjects & cool tech will be covered?
 
