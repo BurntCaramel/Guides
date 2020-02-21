@@ -28,7 +28,7 @@ module.exports = {
             ["/guides/fast-web/", "🏎 Faster Web"],
             ["/guides/accessibility-first-testing/", "🧪 Accessibility-First Testing"],
             ["/guides/rss-is-great/", "🗞 RSS is better than AMP"],
-            ["/guides/go-backends/", "🏍 Simple Backends"],
+            ["/guides/simple-backends/", "🏍 Simple Backends"],
             ["/guides/documentation/", "✏️ Readable Documentation"],
             ["/guides/typescript-patterns/", "🏂 TypeScript Patterns"],
             ["/guides/deploying-web/", "💸 Deploying"],
