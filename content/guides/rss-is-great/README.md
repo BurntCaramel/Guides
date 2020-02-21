@@ -2,7 +2,7 @@
 
 ## Downsides of AMP
 
-Google is concerned about raising the price of `GOOG` stock. AMP might be well intentioned, on reducing page weight and making a fast experience. But it’s a standard controlled by Google. It’s designed to keep users on Google Search. AMP is not the web, it does not have the goals of the web, and it’s not as open as the web.
+Google is concerned about raising the price of `GOOGL` stock. AMP might be well intentioned, on reducing page weight and making a fast experience. But it’s a standard controlled by Google. It’s designed to keep users on Google Search. AMP is not the web, it does not have the goals of the web, and it’s not as open as the web.
 
 ## Benefits of RSS
 
