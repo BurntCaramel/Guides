@@ -29,7 +29,7 @@ Like the skipping to the main content, nav is like pressing the menu button on a
 
 Again in the world of Netflix, searching is a common task. What if you had to scroll through 50 movie posters to get to the search box? You would probably curse or give up.
 
-Adding the `role` attribute with `"searchbox"` adds it as a landmark, allowing people to jump straight to the search and quickly get searching.
+Adding the `role` attribute with `"search"` adds it as a landmark, allowing people to jump straight to the search and quickly get searching.
 
 ### _Articles_ of interest
 
