@@ -28,4 +28,6 @@ Tailwind is my preferred off-the-shelf solution for styling.
 
 ### Tailwind [Custom Forms extension](https://github.com/tailwindcss/custom-forms)
 
-> A better starting point for form elements that is still fairly unopinionated, and easy to customize by adding utilities instead of having to write complicated CSS rules.
+Customizing the styles of forms is one of the most frustrating CSS problems, especially with cross browser compability. This official Tailwind plugin tries to tackle this with a practical yet unopinionated approach.
+
+There’s [a site with interactive examples](https://tailwindcss-custom-forms.netlify.com) that showcases what can be done to customize inputs, selects, checkboxes, radios, and more.
