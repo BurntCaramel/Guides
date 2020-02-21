@@ -1,12 +1,18 @@
 # Guide to Styling Components
 
-## Semantic content for users + non-semantic styles for authors
+## Write semantic content for users, non-semantic styles for authors
 
-My preference is to use semantic HTML markup and presentational CSS classes. [This post covers it well.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/) Trying to make all CSS classes semantically named makes changes harder and reduces reusability — often semantic CSS styles are one-offs for a particular page.
+My preference is to use semantic HTML markup and presentational CSS classes. [This post covers it well.](http://nicolasgallagher.com/about-html-semantics-front-end-architecture/) Trying to make all CSS classes semantically named makes future changes harder and reduces reusability — often semantic CSS styles are one-offs for a particular page.
 
 1. Write semantic, accessible HTML
 2. Write extremely-reusable, presentation-first CSS classes that can be sprinkled into HTML markup
-3. Wrap reusable markup as components (whether React, Vue, or partials)
+3. Wrap reusable markup as components (whether in React, Vue, or partials)
+
+----
+
+## CSS Variables (aka Custom Properties)
+
+CSS Variables have [good browser support](https://caniuse.com/#feat=css-variables) and will work for decades to come. They make overriding for a particular context much easier — no more fighting with CSS rules trying to make a more specific selector to ensure your overrides win.
 
 ----
 
@@ -20,8 +26,6 @@ Tailwind is my preferred off-the-shelf solution for styling.
 - Make building responsive designs much easier.
 - Brings a system to styling while playing to CSS strengths: reusability and UX speed.
 
-----
+### Tailwind [Custom Forms extension](https://github.com/tailwindcss/custom-forms)
 
-## CSS Variables (aka Custom Properties)
-
-CSS Variables have [good browser support](https://caniuse.com/#feat=css-variables) and will work for decades to come. They make overriding for a particular context much easier — no more fighting with CSS rules trying to make a more specific selector to ensure your overrides win.
+> A better starting point for form elements that is still fairly unopinionated, and easy to customize by adding utilities instead of having to write complicated CSS rules.
