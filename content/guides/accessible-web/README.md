@@ -40,9 +40,14 @@ Using `<aside>` can let browsers know that what is inside is supporting content.
 
 ## Checklist
 
-- Landmarks: familiar touch points
-- Roles: what are these things?
-- Widget: how can I control this thing?
+1. Landmarks: provide familiar touch points that can be found easily
+2. Roles: give every element meaning
+3. Widgets: allow everyone to use your controls
+
+## Suggested workflows
+
+- Use a browser extension such as [this one that shows landmarks on the current page](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) to study existing pages you visit and compare it to your own work.
+- Use [accessibility-first TDD](http://localhost:4848/guides/accessibility-first-testing/) to ensure your meet the requirements for landmarks and roles at the beginning.
 
 ## Patterns
 
@@ -50,10 +55,6 @@ Using `<aside>` can let browsers know that what is inside is supporting content.
 - [Accessible Developer Guide](https://www.accessibility-developer-guide.com/introduction/) aims to “bridge the gap between providers of websites and users with special needs.”
 - [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag is “an enjoyable and practical introduction to accessibility, covering everything from background knowledge to front-end implementation (and many things between).” — Léonie Watson
 - [Marking elements as the current one using aria-current](https://www.accessibility-developer-guide.com/examples/sensible-aria-usage/current/)
-
-## Tools
-
-- [A Chrome extension that allows you see and navigate the landmarks on the current page](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp)
 
 ## Use RSS
 
