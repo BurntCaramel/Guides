@@ -1,6 +1,15 @@
 # Guide to Accessible Web
 
-## HTML is critical to get right
+## Consider your HTML, no matter your framework
+
+HTML is not an after-thought, it’s not a ‘solved problem’, it’s not something you learn once and never have to study again. Especially in the world of web apps, it’s worth surveying the capabilities of today’s HTML and the affordances it can bring to every user.
+
+## Accessibility Checklist for HTML
+
+1. **Landmarks:** provide familiar touch points that users can jump to
+2. **Semantics & Roles:** give every element semantic meaning
+3. **Widgets:** allow everyone to use your controls
+4. **Attributes:** sometimes sprinkling `aria-` attributes everywhere makes things _less_ accessible
 
 ## Landmarks: where?
 
@@ -38,12 +47,6 @@ Using `<aside>` can let browsers know that what is inside is supporting content.
 
 ## Widgets: how?
 
-## Checklist
-
-1. Landmarks: provide familiar touch points that can be found easily
-2. Roles: give every element meaning
-3. Widgets: allow everyone to use your controls
-
 ## Suggested workflows
 
 - Use a browser extension such as [this one that shows landmarks on the current page](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) to study existing pages you visit and compare it to your own work.
@@ -55,7 +58,3 @@ Using `<aside>` can let browsers know that what is inside is supporting content.
 - [Accessible Developer Guide](https://www.accessibility-developer-guide.com/introduction/) aims to “bridge the gap between providers of websites and users with special needs.”
 - [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag is “an enjoyable and practical introduction to accessibility, covering everything from background knowledge to front-end implementation (and many things between).” — Léonie Watson
 - [Marking elements as the current one using aria-current](https://www.accessibility-developer-guide.com/examples/sensible-aria-usage/current/)
-
-## Use RSS
-
-RSS lets users just see the content. They can read without distractions, they can read it as they like surrounded
