@@ -52,9 +52,13 @@ Using `<aside>` can let browsers know that what is inside is supporting content.
 - Use a browser extension such as [this one that shows landmarks on the current page](https://chrome.google.com/webstore/detail/landmark-navigation-via-k/ddpokpbjopmeeiiolheejjpkonlkklgp) to study existing pages you visit and compare it to your own work.
 - Use [accessibility-first TDD](http://localhost:4848/guides/accessibility-first-testing/) to ensure your meet the requirements for landmarks and roles at the beginning.
 
-## Patterns
+## Links
 
-- [ARIA Design Pattern Examples](https://www.w3.org/TR/wai-aria-practices/examples/) is a huge list of ARIA-compliant implementations from Alerts to Date Pickers to Toolbars to Slider controls to Carousels.
+- [W3C Landmarks Guide and Example](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/index.html)
 - [Accessible Developer Guide](https://www.accessibility-developer-guide.com/introduction/) aims to “bridge the gap between providers of websites and users with special needs.”
-- [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) by Laura Kalbag is “an enjoyable and practical introduction to accessibility, covering everything from background knowledge to front-end implementation (and many things between).” — Léonie Watson
+- [ARIA Design Pattern Examples](https://www.w3.org/TR/wai-aria-practices/examples/) is a huge list of ARIA-compliant implementations from Alerts to Date Pickers to Toolbars to Slider controls to Carousels.
+- [Accessibility for Everyone](https://abookapart.com/products/accessibility-for-everyone) book by Laura Kalbag is “an enjoyable and practical introduction to accessibility, covering everything from background knowledge to front-end implementation (and many things between).” — Léonie Watson
+- [Deque’s Axe tool](https://www.deque.com/axe/) can catch many accessibility infringements, and is available as extensions for [Firefox](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) and [Chrome](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd?hl=en-US).
+- [A list of all the rules](https://dequeuniversity.com/rules/axe/latest) that Axe catches — perhaps useful as a standalone checklist
+- [Deque University offers Online Courses](https://dequeuniversity.com/curriculum/online-classes/) with in-depth knowledge about accessibility, ranging from small focused lessons, to a comprehensive curriculum that can help you get professionally certified.
 - [Marking elements as the current one using aria-current](https://www.accessibility-developer-guide.com/examples/sensible-aria-usage/current/)
