@@ -1,5 +1,5 @@
 {
+  "version": 2,
   "name": "collected-systems",
-  "alias": "collected.systems",
-  "type": "static"
+  "alias": ["guidebook"]
 }
