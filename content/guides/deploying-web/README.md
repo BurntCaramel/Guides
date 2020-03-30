@@ -83,6 +83,11 @@
 - Config file: https://zeit.co/docs/features/configuration
 
 
+## [Render:](https://render.com/) Web Apps, APIs, Databases, Background Tasks, Docker, Static Sites
+
+
+## [Fly.io:](https://fly.io/) APIs, Docker, Redis
+
 
 [cloudflare workers pricing]: https://support.cloudflare.com/hc/en-us/articles/360001657552-Billing-for-Cloudflare-Workers
 [netlify pricing]: https://www.netlify.com/pricing/
