@@ -12,7 +12,43 @@ My preference is to use semantic HTML markup and presentational CSS classes. [Th
 
 ## CSS Variables (aka Custom Properties)
 
-CSS Variables have [good browser support](https://caniuse.com/#feat=css-variables) and will work for decades to come. They make overriding for a particular context much easier — no more fighting with CSS rules trying to make a more specific selector to ensure your overrides win.
+CSS Variables have [good browser support](https://caniuse.com/#feat=css-variables) and will work for decades (!) to come. They make overriding for a particular context much easier — avoid fighting with CSS trying to make an especially specific selector to ensure your overrides win.
+
+### Role classes
+
+Say you want links within a section to be of a certain color. You could create a class like `links-primary`:
+
+```css
+:root {
+  --link-color: blue;
+  --primary-color: pink;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.links-primary a {
+  color: var(--primary-color);
+}
+```
+
+But instead, consider overriding CSS variables:
+
+```css
+:root {
+  --link-color: blue;
+  --primary-color: pink;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.links-primary {
+  --link-color: var(--primary-color);
+}
+```
 
 ----
 
