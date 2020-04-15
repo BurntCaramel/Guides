@@ -6,7 +6,7 @@
   "devDependencies": {
     "node-sass": "^4.13.1",
     "sass-loader": "^8.0.2",
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.1"
   },
   "scripts": {
     "dev": "vuepress dev ./content",
